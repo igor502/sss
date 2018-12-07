@@ -1,0 +1,33 @@
+.mainContent {
+  display: flex;
+  height: 500px;
+
+}
+
+.feedWrapper {
+  /*background-color: #fff;*/
+   background: /*linear-gradient(181deg, rgba(100, 200, 255, 0.6), rgba(0, 0, 0, 0.9)),*/
+  url('https://cdn1us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/cobra_poster.jpg?itok=6F5KXHuJ') no-repeat;;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  padding: 0;
+
+  /*flex: 5;*/
+  /*order: 2;*/
+  overflow-y: scroll;
+
+}
+
+.chatFormWrapper {
+  background-color: #eee;
+  z-index: 3;
+  padding: 0;
+}
+
+#scroll-style::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background-color: #F5F5F5;
+}
+
+

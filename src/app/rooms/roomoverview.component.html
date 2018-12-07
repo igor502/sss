@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rooms</title>
+</head>
+<body>
+
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">ID</th>
+    <th scope="col">Name</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let room of roomslist; let i = index">
+    <th scope="row">{{room.id}}</th>
+    <td>{{room.name}}</td>
+    <td>
+      <button id="joinroombutton" (click)="joinRoom(room.id)" mat-button>lol</button>
+    </td>
+  </tr>
+  </tbody>
+</table>
+<a>test</a>
+
+</body>
+</html>
