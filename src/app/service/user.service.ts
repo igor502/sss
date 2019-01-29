@@ -15,7 +15,7 @@ export class UserService {
   login(userIdentifier: String, password: String) {
 
     return this.http.post('http://localhost:8080/users/signin', {userIdentifier, password}, {responseType: 'text'});
-
+    console.log("uw moeder");
 
   }
 
